@@ -14,7 +14,7 @@ BaseArm secondArm;
 void setup() {
   size(600, 800);
   baseArm.update();
-  secondArm = new BaseArm(baseArm.tipPos.x,baseArm.tipPos.y, angleSecondMotor, false);
+  secondArm = new SecondArm(baseArm.tipPos.x,baseArm.tipPos.y, angleSecondMotor, false);
 }
 
 void setSecondArmMotorPos(){
