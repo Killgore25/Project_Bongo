@@ -1,0 +1,8 @@
+class Motor{
+  
+  
+  
+  Motor(){
+    
+  }
+}
